@@ -1,0 +1,21 @@
+$blk:#1c1b1a;
+$base:#f18e00;
+$gray:#7f7f7f;
+
+@mixin font-family {font-family: Helvetica, "Microsoft YaHei","Heiti","Heiti SC", "DroidSans", "DroidSansFallback","Helvetica Neue",  "STHeiTi", Arial, sans-serif;}
+/* reset */
+html{@include font-family;height:100%;min-width:6.4rem;-webkit-tap-highlight-color: transparent;}
+body{margin:0;padding:0;background: #f7f7f7;color:$blk;-webkit-text-size-adjust:none;min-height:100%;}
+ul,ol,li,form{margin:0;padding:0;-webkit-overflow-scrolling : touch;}
+ul,ol{list-style:none;}
+img{border:0;}
+em,i,span{font-style: normal;}
+h1,h2,h3,h4,div,li,p{margin:0;padding:0;font-weight:normal;-webkit-tap-highlight-color:transparent;-webkit-overflow-scrolling : touch;}
+input, select, textarea{-webkit-tap-highlight-color: rgba(0,0,0,0);margin:0;padding:0;@include font-family; -webkit-appearance: none;
+    &:focus{outline: none}
+}
+a{color:$blk;text-decoration: none;}
+table { border-collapse: collapse; border-spacing: 0; }
+td, th { padding: 0; }
+
+// ==================    reset  end ===============
